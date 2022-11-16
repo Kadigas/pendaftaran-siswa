@@ -49,16 +49,16 @@
                 while($siswa = mysqli_fetch_array($query)){
                     echo "<tr>";
 
-                    echo "<td class='text-center'>".$siswa['id']."</td>";
+                    echo "<td class='text-center col-md-1'>".$siswa['id']."</td>";
                     echo "<td class='col-md-2'>".$siswa['nama']."</td>";
                     echo "<td class='col-md-2'>".$siswa['alamat']."</td>";
                     echo "<td class='col-md-2'>".$siswa['jenis_kelamin']."</td>";
                     echo "<td class='col-md-2'>".$siswa['agama']."</td>";
                     echo "<td class='col-md-2'>".$siswa['sekolah_asal']."</td>";
 
-                    echo "<td class='text-center'>";
-                    echo "<a href='form-edit.php?id=".$siswa['id']."' class='btn btn-info mx-1'>Edit</a>";
-                    echo "<a href='hapus.php?id=".$siswa['id']."' class='btn btn-danger mx-1'>Hapus</a>";
+                    echo "<td class='text-center col-md-2'>";
+                    echo "<a href='form-edit.php?id=".$siswa['id']."' class='btn-sm btn-info mx-1'>Edit</a>";
+                    echo "<a href='hapus.php?id=".$siswa['id']."' class='btn-sm btn-danger mx-1'>Hapus</a>";
                     echo "</td>";
 
                     echo "</tr>";

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="d-flex flex-column align-items-center justify-content-center">
         <h3 class="d-flex justify-content-center">Pendaftaran Siswa Baru</h3>
         <h1 class="d-flex justify-content-center">SMK Coding</h1>
         <nav>
